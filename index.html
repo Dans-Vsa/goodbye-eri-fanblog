@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>さよなら絵梨 · Goodbye, Eri · Blog Penggemar Tatsuki Fujimoto</title>
+<meta name="description" content="Blog penggemar Goodbye, Eri karya Tatsuki Fujimoto: info karya, tokoh, latar, bahasa kamera, galeri, alur interaktif seperti rekaman ponsel, tema, fun fact, dan tempat membaca.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="さよなら絵梨 · Goodbye, Eri · Blog Penggemar">
+<meta property="og:description" content="Rekaman ponsel, panel manga, dan sedikit fantasi.">
+<meta property="og:image" content="https://dans-vsa.github.io/goodbye-eri-fanblog/assets/cover.webp">
+<meta property="og:url" content="https://dans-vsa.github.io/goodbye-eri-fanblog/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Cpath d='M4 10V4h6M22 4h6v6M28 22v6h-6M10 28H4v-6' stroke='%23f4f2ec' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23ff2b2b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@500&family=Shippori+Mincho:wght@500;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap&text=%E3%81%95%E3%81%97%E3%81%AA%E3%82%88%E3%82%89%E3%82%A6%E3%82%AB%E3%82%B6%E3%83%81%E3%83%83%E3%83%89%E3%83%91%E3%83%92%E3%83%A5%E3%83%B3%E3%83%BC%E4%B8%8A%E5%86%99%E5%AE%A4%E5%B0%91%E5%B1%8B%E5%B9%B4%E5%B9%BB%E5%BD%B1%E5%BE%8C%E6%83%B3%E6%92%AE%E6%95%B0%E6%97%A5%E6%98%A0%E6%A2%A8%E7%88%86%E7%94%9F%E7%94%BB%E7%99%BA%E7%B5%B5%E8%AA%95">
+<link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+
+<!-- ============ shared art (symbols reused by panels) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.3" fill="#0d0d0d"/></pattern>
+    <pattern id="dotsL" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".8" fill="#0d0d0d"/></pattern>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#0d0d0d" stroke-width="1.2"/></pattern>
+  </defs>
+  <symbol id="s-phone" viewBox="0 0 200 150"><rect x="70" y="10" width="62" height="128" rx="10" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><rect x="77" y="24" width="48" height="96" fill="url(#dots)" stroke="#0d0d0d" stroke-width="2"/><circle cx="101" cy="129" r="4" fill="#0d0d0d"/><circle cx="87" cy="33" r="4" fill="#ff2b2b"/><path d="M40 150c6-30 18-50 34-58M168 150c-4-24-14-40-36-50" stroke="#0d0d0d" stroke-width="4" fill="none"/></symbol>
+  <symbol id="s-cake" viewBox="0 0 200 150"><ellipse cx="100" cy="128" rx="78" ry="12" fill="url(#hatch)"/><rect x="40" y="78" width="120" height="46" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M40 92c15 10 25-6 40 4s25-6 40 4 25-6 40 0" stroke="#0d0d0d" stroke-width="3" fill="none"/><rect x="40" y="100" width="120" height="24" fill="url(#dotsL)"/><g stroke="#0d0d0d" stroke-width="3"><path d="M64 78V50M88 78V46M112 78V46M136 78V50"/></g><g fill="#0d0d0d"><path d="M64 44c-5-6 0-12 0-16 4 6 6 10 0 16zM88 40c-5-6 0-12 0-16 4 6 6 10 0 16zM112 40c-5-6 0-12 0-16 4 6 6 10 0 16zM136 44c-5-6 0-12 0-16 4 6 6 10 0 16z"/></g></symbol>
+  <symbol id="s-bed" viewBox="0 0 200 150"><rect x="0" y="0" width="200" height="150" fill="url(#dotsL)" opacity=".35"/><path d="M160 20v110M150 20h20M156 20v22h8V20" stroke="#0d0d0d" stroke-width="3" fill="#f4f2ec"/><path d="M160 42c-10 20-40 30-58 50" stroke="#0d0d0d" stroke-width="1.5" fill="none"/><rect x="20" y="90" width="150" height="16" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M20 106v30M170 106v30" stroke="#0d0d0d" stroke-width="4"/><path d="M28 90c0-14 10-22 26-22 14 0 22 8 22 22z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="3"/><path d="M60 70c10-22 40-22 46-8 10-4 40-2 56 28H60z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><circle cx="54" cy="64" r="13" fill="#0d0d0d"/></symbol>
+  <symbol id="s-hospital" viewBox="0 0 200 150"><rect x="40" y="30" width="120" height="120" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><rect x="88" y="8" width="24" height="22" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="3"/><path d="M100 12v14M93 19h14" stroke="#0d0d0d" stroke-width="4"/><g fill="#0d0d0d"><rect x="52" y="44" width="16" height="14"/><rect x="78" y="44" width="16" height="14"/><rect x="106" y="44" width="16" height="14"/><rect x="132" y="44" width="16" height="14"/><rect x="52" y="72" width="16" height="14"/><rect x="78" y="72" width="16" height="14"/><rect x="106" y="72" width="16" height="14"/><rect x="132" y="72" width="16" height="14"/><rect x="52" y="100" width="16" height="14"/><rect x="132" y="100" width="16" height="14"/><rect x="86" y="118" width="28" height="32"/></g></symbol>
+  <symbol id="s-boy" viewBox="0 0 200 150"><path d="M30 150c4-40 30-56 70-56s66 16 70 56z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M84 96l16 22 16-22M92 112v38M108 112v38" stroke="#0d0d0d" stroke-width="3" fill="none"/><circle cx="100" cy="58" r="36" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M60 58c0-30 18-42 40-42 24 0 40 14 40 40-6-2-10-8-12-14-4 8-14 12-22 10 2-6 0-10-2-12-6 10-24 18-44 18z" fill="#0d0d0d"/><path d="M82 68h10M108 68h10" stroke="#0d0d0d" stroke-width="4"/><path d="M80 76c4 2 8 2 12 0M108 76c4 2 8 2 12 0" stroke="#0d0d0d" stroke-width="1.5" fill="none"/><path d="M95 86h10" stroke="#0d0d0d" stroke-width="3"/></symbol>
+  <symbol id="s-girl" viewBox="0 0 200 150"><path d="M58 118c-10-50 0-86 42-88 42 2 52 38 42 88z" fill="#0d0d0d"/><path d="M40 150c6-34 30-48 60-48s54 14 60 48z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M84 104l16 14 16-14" stroke="#0d0d0d" stroke-width="3" fill="none"/><path d="M96 118l-4 18h16l-4-18z" fill="#0d0d0d"/><ellipse cx="100" cy="68" rx="28" ry="34" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M70 72c-2-30 12-42 30-42 20 0 34 12 30 42-6-8-8-18-10-24-8 6-30 8-44 4-2 8-4 14-6 20z" fill="#0d0d0d"/><path d="M84 70c3-3 8-3 11 0M106 70c3-3 8-3 11 0" stroke="#0d0d0d" stroke-width="3" fill="none"/><path d="M93 88c5 3 11 3 15 0" stroke="#0d0d0d" stroke-width="2.5" fill="none"/><path d="M96 90l2 4 2-4M102 90l2 4 2-4" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="1.2"/></symbol>
+  <symbol id="s-girl-g" viewBox="0 0 200 150"><use href="#s-girl"/><g fill="none" stroke="#0d0d0d" stroke-width="3"><circle cx="89" cy="71" r="9"/><circle cx="112" cy="71" r="9"/><path d="M98 71h5"/></g></symbol>
+  <symbol id="s-mom" viewBox="0 0 200 150"><path d="M40 150c6-34 30-48 60-48s54 14 60 48z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><ellipse cx="100" cy="66" rx="30" ry="36" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M68 70c-4-30 12-44 34-44 22 0 36 16 32 40-14-4-26-16-30-26-6 14-20 26-36 30z" fill="#0d0d0d"/><path d="M128 50c12 4 16 14 10 22" stroke="#0d0d0d" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M84 72h10M108 72h10" stroke="#0d0d0d" stroke-width="3"/><path d="M92 90h16" stroke="#0d0d0d" stroke-width="3"/><path d="M80 82l6 2M120 82l-6 2" stroke="#0d0d0d" stroke-width="1.5"/></symbol>
+  <symbol id="s-dad" viewBox="0 0 200 150"><path d="M34 150c4-36 30-52 66-52s62 16 66 52z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M100 98v52" stroke="#0d0d0d" stroke-width="3"/><ellipse cx="100" cy="62" rx="32" ry="36" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M68 54c0-24 14-32 32-32s32 8 32 32c-10-8-20-10-32-10s-22 2-32 10z" fill="#0d0d0d"/><g fill="none" stroke="#0d0d0d" stroke-width="3"><rect x="78" y="58" width="18" height="12" rx="3"/><rect x="104" y="58" width="18" height="12" rx="3"/><path d="M96 63h8"/></g><path d="M88 84c8 4 16 4 24 0" stroke="#0d0d0d" stroke-width="3" fill="none"/><rect x="74" y="80" width="52" height="18" fill="url(#dotsL)" opacity=".7"/></symbol>
+  <symbol id="s-friend" viewBox="0 0 200 150"><path d="M40 150c6-34 30-48 60-48s54 14 60 48z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M128 40c22 0 26 30 14 56" stroke="#0d0d0d" stroke-width="12" stroke-linecap="round" fill="none"/><ellipse cx="100" cy="66" rx="30" ry="35" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M70 62c0-24 14-34 30-34s30 10 30 34c-12-2-24-10-30-18-6 8-18 16-30 18z" fill="#0d0d0d"/><path d="M84 66l10 4M118 66l-10 4" stroke="#0d0d0d" stroke-width="3"/><path d="M92 88c5-3 11-3 16 0" stroke="#0d0d0d" stroke-width="3" fill="none"/></symbol>
+  <symbol id="s-rail" viewBox="0 0 200 150"><rect width="200" height="80" fill="url(#dotsL)" opacity=".5"/><path d="M0 80h200M0 92h200" stroke="#0d0d0d" stroke-width="4"/><g stroke="#0d0d0d" stroke-width="3"><path d="M10 80v70M40 80v70M70 80v70M100 80v70M130 80v70M160 80v70M190 80v70"/></g><path d="M0 40h60l10-14h30v14h100" stroke="#0d0d0d" stroke-width="2" fill="none" opacity=".6"/></symbol>
+  <symbol id="s-projector" viewBox="0 0 200 150"><path d="M64 70L200 10v130z" fill="#f4f2ec" opacity=".9"/><rect x="10" y="62" width="58" height="40" fill="#0d0d0d"/><circle cx="26" cy="54" r="14" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><circle cx="52" cy="54" r="14" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><rect x="66" y="74" width="10" height="16" fill="#0d0d0d"/><path d="M26 102l-8 30M52 102l8 30" stroke="#0d0d0d" stroke-width="4"/></symbol>
+  <symbol id="s-ruin" viewBox="0 0 200 150"><path d="M30 150V40l20-10 30 6 10-12 20 8 20-4 20 14 20-6v114z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><g fill="#0d0d0d"><path d="M44 54h18v16H44zM76 54h18v16H76zM110 54h18v16h-18zM142 54h18v16h-18zM44 88h18v16H44zM110 88h18v16h-18zM142 88h18v16h-18zM84 116h30v34H84z"/></g><path d="M76 88h18v16H76z" fill="url(#hatch)" stroke="#0d0d0d" stroke-width="2"/><path d="M40 30l14 18M150 36l-10 20M96 24l4 30" stroke="#0d0d0d" stroke-width="1.5"/></symbol>
+  <symbol id="s-school" viewBox="0 0 200 150"><rect x="20" y="50" width="160" height="100" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><rect x="84" y="20" width="32" height="30" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><circle cx="100" cy="35" r="9" fill="none" stroke="#0d0d0d" stroke-width="3"/><path d="M100 35V29M100 35h5" stroke="#0d0d0d" stroke-width="2"/><g fill="url(#dots)" stroke="#0d0d0d" stroke-width="2"><rect x="32" y="64" width="26" height="20"/><rect x="66" y="64" width="26" height="20"/><rect x="108" y="64" width="26" height="20"/><rect x="142" y="64" width="26" height="20"/><rect x="32" y="98" width="26" height="20"/><rect x="142" y="98" width="26" height="20"/></g><rect x="80" y="104" width="40" height="46" fill="#0d0d0d"/></symbol>
+  <symbol id="s-beach" viewBox="0 0 200 150"><circle cx="150" cy="40" r="18" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="3"/><rect y="0" width="200" height="80" fill="url(#dotsL)" opacity=".35"/><path d="M0 80h200" stroke="#0d0d0d" stroke-width="3"/><g stroke="#0d0d0d" stroke-width="2" fill="none"><path d="M10 92c20-6 40 6 60 0s40 6 60 0 40 6 60 0"/><path d="M0 108c20-6 40 6 60 0s40 6 60 0 40 6 60 0 40 6 60 0"/></g><rect y="118" width="200" height="32" fill="url(#hatch)" opacity=".45"/><path d="M60 128c10-6 34-6 44 0" stroke="#0d0d0d" stroke-width="4" fill="none"/><circle cx="52" cy="126" r="7" fill="#0d0d0d"/></symbol>
+  <symbol id="s-notebook" viewBox="0 0 200 150"><path d="M30 30h66c4 0 4 4 4 4s0-4 4-4h66v100h-66c-4 0-4 4-4 4s0-4-4-4H30z" fill="#f4f2ec" stroke="#0d0d0d" stroke-width="4"/><path d="M100 34v100" stroke="#0d0d0d" stroke-width="2"/><g stroke="#0d0d0d" stroke-width="2" opacity=".7"><path d="M40 50h50M40 62h44M40 74h50M40 86h38M40 98h48M110 50h50M110 62h40M110 74h50M110 86h30"/></g></symbol>
+</svg>
+
+<!-- ============ camera HUD ============ -->
+<div class="hud" aria-hidden="true">
+  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+  <div class="hud-top">
+    <span class="rec"><b></b>REC</span>
+    <span class="tc" id="tc">00:00:00:00</span>
+    <span class="hud-arc" id="hudArc">STANDBY</span>
+    <span class="batt"><i id="batt"></i><em id="battPct">100%</em></span>
+  </div>
+  <div class="hud-side">4K · 24FPS<br>ISO <span id="iso">400</span><br>F/1.8</div>
+  <div class="reticle" id="reticle"></div>
+  <div class="grain"></div>
+</div>
+
+<header class="bar">
+  <a class="brand" href="#boot" aria-label="Goodbye, Eri, kembali ke awal"><span lang="ja">さよなら絵梨</span></a>
+  <nav class="bar-nav" aria-label="Bagian">
+    <a href="#info">Info</a><a href="#tokoh" data-en="Cast">Tokoh</a><a href="#latar" data-en="Places">Latar</a><a href="#kamera" data-en="Camera">Kamera</a><a href="#galeri" data-en="Gallery">Galeri</a><a href="#spoiler" data-en="Story">Alur</a><a href="#fakta" data-en="Facts">Fakta</a><a href="#baca" data-en="Read">Baca</a>
+  </nav>
+  <div class="bar-tools">
+    <button class="tool" id="sway" type="button" aria-pressed="false" data-en="Handheld">Goyang tangan</button>
+    <button class="tool" id="lang" type="button" aria-label="Ganti bahasa / Switch language">ID / EN</button>
+  </div>
+</header>
+
+<!-- ============ edit timeline (progress + section nav) ============ -->
+<nav class="timeline" id="timeline" aria-label="Timeline">
+  <div class="tl-track" id="tlTrack"></div>
+  <span class="tl-head" id="tlHead"></span>
+</nav>
+
+<div class="flash" id="flash" aria-hidden="true"></div>
+
+<dialog class="lightbox" id="lightbox">
+  <form method="dialog"><button class="tool lb-close" type="submit" data-en="Close ✕">Tutup ✕</button></form>
+  <img id="lbImg" alt="">
+  <p class="mono" id="lbCap"></p>
+</dialog>
+
+<main id="film">
+
+<!-- 00 · BOOT ===================================================== -->
+<section class="boot" id="boot" data-arc="00" data-label="BOOT" data-en-label="BOOT">
+  <div class="boot-grid">
+    <div class="boot-inner">
+      <p class="mono kicker" data-en="Fan blog · one-shot by Tatsuki Fujimoto · Shōnen Jump+ 2022">Blog penggemar · one-shot Tatsuki Fujimoto · Shōnen Jump+ 2022</p>
+      <h1 class="title">
+        <span class="title-jp" lang="ja" aria-hidden="true"><i>さ</i><i>よ</i><i>な</i><i>ら</i><i>絵</i><i>梨</i></span>
+        <span class="title-en">Goodbye, Eri</span>
+      </h1>
+      <p class="lede" data-en="A boy, a phone, a girl who loves movies, and an explosion nobody asked for. Everything you need to know about Fujimoto's 200-page one-shot, recorded like phone footage.">Seorang anak, sebuah ponsel, gadis yang cinta film, dan ledakan yang tidak diminta siapa pun. Semua yang perlu kamu tahu tentang one-shot 200 halaman karya Fujimoto, direkam seperti video ponsel.</p>
+      <div class="boot-cta">
+        <button class="btn-rec" id="startRec" type="button"><b></b><span data-en="Start recording">Mulai rekam</span></button>
+        <a class="btn-ghost" href="#spoiler" data-en="Jump to the story ↓">Langsung ke alur ↓</a>
+      </div>
+      <p class="mono hint" data-en="Scroll = play · Bottom bar = jump to a scene · Spoilers only after the gate">Gulir = putar · Bar bawah = lompat adegan · Spoiler hanya setelah gerbang</p>
+    </div>
+    <figure class="boot-cover">
+      <div class="phone-frame"><img src="assets/cover.webp" width="600" height="942" alt="Sampul volume Jepang さよなら絵梨: Eri di layar ponsel yang dipegang mendatar" data-en-alt="Japanese volume cover of さよなら絵梨: Eri on a phone screen held sideways"></div>
+      <figcaption class="mono" data-en="JP volume cover · © Tatsuki Fujimoto / Shueisha">Sampul volume JP · © Tatsuki Fujimoto / Shueisha</figcaption>
+    </figure>
+  </div>
+  <div class="boot-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- IN · INFO ===================================================== -->
+<section class="wiki" id="info" data-arc="IN" data-label="INFO" data-en-label="INFO">
+  <header class="slate">
+    <p class="mono">REEL A · <span data-en="About the work">Tentang karya</span></p>
+    <h2 data-en="A film about films">Film tentang film</h2>
+    <p class="slate-sum" data-en="No spoilers in this part. Here is what Goodbye, Eri is, who made it, and why people still talk about it.">Bagian ini bebas spoiler. Apa itu Goodbye, Eri, siapa pembuatnya, dan kenapa orang masih membicarakannya.</p>
+  </header>
+  <div class="info-grid">
+    <div class="info-copy">
+      <p class="narr" data-en="Yuta Ito is given a phone on his birthday, and with it a task from his sick mother: film her, every day, until the end. The movie he makes from that footage gets him laughed at by the whole school. At his lowest point he meets Eri, a girl who loved that movie, and who wants to make another one with him.">Yuta Itō mendapat ponsel di hari ulang tahunnya, sekaligus tugas dari ibunya yang sakit: rekam dia setiap hari, sampai akhir. Film yang ia buat dari rekaman itu membuatnya ditertawakan satu sekolah. Di titik terendahnya, ia bertemu Eri, gadis yang justru menyukai film itu, dan ingin membuat film baru bersamanya.</p>
+      <p data-en="Almost the whole manga is drawn as if seen through Yuta's phone camera: the same grid of wide panels, page after page, like frames on a screen. Reading it feels like watching footage, and that is the point. Goodbye, Eri keeps asking how much of what we film, and what we remember, is real.">Hampir seluruh manganya digambar seolah dilihat lewat kamera ponsel Yuta: grid panel lebar yang sama, halaman demi halaman, seperti bingkai di layar. Membacanya terasa seperti menonton rekaman, dan memang itu tujuannya. Goodbye, Eri terus bertanya: seberapa nyata yang kita rekam, dan yang kita ingat?</p>
+    </div>
+    <dl class="infobox">
+      <div><dt data-en="Japanese title">Judul Jepang</dt><dd><span lang="ja">さよなら絵梨</span> · Sayonara Eri</dd></div>
+      <div><dt data-en="Story &amp; art">Cerita &amp; gambar</dt><dd>Tatsuki Fujimoto</dd></div>
+      <div><dt data-en="Type">Jenis</dt><dd data-en="One-shot · 200 pages · 1 volume">One-shot · 200 halaman · 1 volume</dd></div>
+      <div><dt data-en="Released">Rilis</dt><dd data-en="11 April 2022 · Shōnen Jump+">11 April 2022 · Shōnen Jump+</dd></div>
+      <div><dt data-en="Volume (JP)">Volume (JP)</dt><dd data-en="4 July 2022 · Jump Comics+, Shueisha">4 Juli 2022 · Jump Comics+, Shueisha</dd></div>
+      <div><dt data-en="English">Bahasa Inggris</dt><dd data-en="Same day on Manga Plus &amp; VIZ · print 27 June 2023">Simultan di Manga Plus &amp; VIZ · cetak 27 Juni 2023</dd></div>
+      <div><dt data-en="Genre">Genre</dt><dd data-en="Drama · coming-of-age · meta-fiction">Drama · coming-of-age · meta-fiksi</dd></div>
+      <div><dt data-en="Before it">Sebelumnya</dt><dd>Look Back (2021)</dd></div>
+    </dl>
+  </div>
+  <div class="stats">
+    <div class="stat"><b data-count="200">0</b><span data-en="pages, Fujimoto's longest one-shot">halaman, one-shot terpanjang Fujimoto</span></div>
+    <div class="stat"><b data-count="2.2" data-suffix="M">0</b><span data-en="views on Jump+ within a day">view di Jump+ dalam sehari</span></div>
+    <div class="stat"><b data-count="2" data-prefix="#">0</b><span data-en="Kono Manga ga Sugoi! 2023, male readers">Kono Manga ga Sugoi! 2023, kategori pria</span></div>
+    <div class="stat"><b data-count="2">0</b><span data-en="US award nominations: Harvey &amp; Eisner">nominasi penghargaan AS: Harvey &amp; Eisner</span></div>
+  </div>
+</section>
+
+<!-- TK · TOKOH ==================================================== -->
+<section class="wiki" id="tokoh" data-arc="TK" data-label="TOKOH" data-en-label="CAST">
+  <header class="slate">
+    <p class="mono">REEL B · <span data-en="Cast">Tokoh</span></p>
+    <h2 data-en="On camera, off camera">Di depan kamera, di balik kamera</h2>
+    <p class="slate-sum" data-en="Every character has two versions: the one in Yuta's film and the real one. Tap “RAW” to see the unedited version (contains spoilers).">Setiap tokoh punya dua versi: yang ada di film Yuta dan yang asli. Ketuk “RAW” untuk melihat versi tanpa sunting (berisi spoiler).</p>
+  </header>
+  <div class="cast">
+    <article class="char">
+      <div class="char-art"><img class="char-img" src="assets/cast-yuta.webp" width="640" height="360" loading="lazy" alt="Yuta Itō, ilustrasi promo resmi" data-en-alt="Yuta Ito, official promo art"><span class="mono char-tag">CAM 01</span></div>
+      <div class="char-body">
+        <p class="mono char-role" data-en="Protagonist · director">Protagonis · sutradara</p>
+        <h3>Yuta Itō</h3>
+        <div class="char-sides">
+          <p class="side side-film" data-en="A boy who films everything. His first movie, about his mother's illness, ends with him running from an exploding hospital, and the whole school hates it.">Anak yang merekam segalanya. Film pertamanya, tentang sakit ibunya, berakhir dengan dirinya berlari dari rumah sakit yang meledak, dan satu sekolah membencinya.</p>
+          <p class="side side-raw" data-en="He cuts the ugly parts out of his films, and out of his memories. As an adult he loses his wife, child and father in a car accident, and keeps re-editing Eri's movie for years.">Ia memotong bagian buruk dari filmnya, juga dari ingatannya. Saat dewasa ia kehilangan istri, anak, dan ayahnya dalam kecelakaan mobil, dan bertahun-tahun terus menyunting ulang film Eri.</p>
+        </div>
+        <ul class="tags"><li data-en="filmmaker">pembuat film</li><li data-en="grief">duka</li><li data-en="editor of memories">penyunting kenangan</li></ul>
+      </div>
+      <button class="raw-toggle" type="button" aria-pressed="false"><span>FILM</span><span>RAW</span></button>
+    </article>
+    <article class="char">
+      <div class="char-art"><img class="char-img film-img" src="assets/cast-eri-film.webp" width="640" height="360" loading="lazy" alt="Eri di layar ponsel, dari sampul volume" data-en-alt="Eri on a phone screen, from the volume cover"><img class="char-img raw-img" src="assets/cast-eri.webp" width="640" height="360" loading="lazy" alt="Eri, ilustrasi promo resmi hitam putih" data-en-alt="Eri, official black-and-white promo art"><span class="mono char-tag">CAM 02</span></div>
+      <div class="char-body">
+        <p class="mono char-role" data-en="Heroine · producer">Heroine · produser</p>
+        <h3>Eri</h3>
+        <div class="char-sides">
+          <p class="side side-film" data-en="Bright, confident, slightly mysterious. She loved the explosion everyone else hated, and drags Yuta into watching film after film. In their movie she plays a vampire.">Ceria, percaya diri, sedikit misterius. Ia menyukai ledakan yang dibenci semua orang, lalu menyeret Yuta menonton film demi film. Di film mereka ia berperan sebagai vampir.</p>
+          <p class="side side-raw" data-en="She wears glasses and takes them off for every shot. Her friends say she could be mean and self-centred. She is terminally ill, or so it seems, because the vampire part may not be fiction at all.">Ia berkacamata dan selalu melepasnya saat syuting. Teman-temannya bilang ia bisa ketus dan egois. Ia sakit parah, setidaknya begitu kelihatannya, karena bagian vampir itu mungkin sama sekali bukan fiksi.</p>
+        </div>
+        <ul class="tags"><li data-en="movie buff">maniak film</li><li data-en="vampire?">vampir?</li><li data-en="glasses off-camera">kacamata di balik layar</li></ul>
+      </div>
+      <button class="raw-toggle" type="button" aria-pressed="false"><span>FILM</span><span>RAW</span></button>
+    </article>
+    <article class="char">
+      <div class="char-art"><img class="char-img" src="assets/cast-mom.webp" loading="lazy" alt="Ibu Yuta, panel manga" data-en-alt="Yuta's mother, manga panel" style="object-position:50% 35%"><span class="mono char-tag">CAM 03</span></div>
+      <div class="char-body">
+        <p class="mono char-role" data-en="The first subject">Subjek pertama</p>
+        <h3 data-en="Yuta's mother">Ibu Yuta</h3>
+        <div class="char-sides">
+          <p class="side side-film" data-en="A gentle, dying mother who asks her son to record her last days so he will have something to remember her by.">Ibu lembut yang sekarat dan meminta putranya merekam hari-hari terakhirnya, agar ia punya sesuatu untuk dikenang.</p>
+          <p class="side side-raw" data-en="She was abusive to both her son and her husband. The film was meant to profit from her illness if she lived, or to make sure she was remembered kindly if she didn't.">Ia kasar kepada putra dan suaminya. Film itu dimaksudkan untuk mengambil untung dari sakitnya jika ia sembuh, atau memastikan ia dikenang dengan baik jika ia meninggal.</p>
+        </div>
+        <ul class="tags"><li data-en="hospital">rumah sakit</li><li data-en="Dead Explosion Mother">Dead Explosion Mother</li></ul>
+      </div>
+      <button class="raw-toggle" type="button" aria-pressed="false"><span>FILM</span><span>RAW</span></button>
+    </article>
+    <article class="char">
+      <div class="char-art"><img class="char-img" src="assets/cast-dad.webp" loading="lazy" alt="Ayah Yuta, panel manga" data-en-alt="Yuta's father, manga panel" style="object-position:50% 25%"><span class="mono char-tag">CAM 04</span></div>
+      <div class="char-body">
+        <p class="mono char-role" data-en="Supporting role">Pemeran pendukung</p>
+        <h3 data-en="Yuta's father">Ayah Yuta</h3>
+        <div class="char-sides">
+          <p class="side side-film" data-en="Mostly in the background of the footage, quiet and passive.">Lebih sering di latar belakang rekaman, pendiam dan pasif.</p>
+          <p class="side side-raw" data-en="When Yuta wants to give up on Eri's film, he pushes him to finish it, and tells him the truth about his mother. Many readers see him as a stand-in for Fujimoto himself.">Saat Yuta ingin menyerah pada film Eri, ia mendorongnya menyelesaikannya, dan menceritakan kebenaran tentang ibunya. Banyak pembaca menganggapnya cerminan Fujimoto sendiri.</p>
+        </div>
+        <ul class="tags"><li data-en="mentor">mentor</li><li data-en="the truth teller">pembawa kebenaran</li></ul>
+      </div>
+      <button class="raw-toggle" type="button" aria-pressed="false"><span>FILM</span><span>RAW</span></button>
+    </article>
+    <article class="char">
+      <div class="char-art"><img class="char-img" src="assets/cast-classmate.webp" loading="lazy" alt="Teman sekelas Yuta, panel manga" data-en-alt="Yuta's classmate, manga panel" style="object-position:50% 25%"><span class="mono char-tag">CAM 05</span></div>
+      <div class="char-body">
+        <p class="mono char-role" data-en="Witnesses">Saksi</p>
+        <h3 data-en="Classmates">Teman sekelas</h3>
+        <div class="char-sides">
+          <p class="side side-film" data-en="The audience at both of Yuta's school screenings: they mock the first film and cry at the second.">Penonton di dua pemutaran sekolah Yuta: mengejek film pertama dan menangisi film kedua.</p>
+          <p class="side side-raw" data-en="One of Eri's friends confronts Yuta after the screening: the Eri on screen is not the Eri she knew. In the end they agree they would rather remember her the way the film shows her.">Salah satu teman Eri menghadapi Yuta setelah pemutaran: Eri di layar bukan Eri yang ia kenal. Pada akhirnya mereka sepakat lebih suka mengingat Eri seperti di film.</p>
+        </div>
+        <ul class="tags"><li data-en="memory vs truth">ingatan vs kebenaran</li></ul>
+      </div>
+      <button class="raw-toggle" type="button" aria-pressed="false"><span>FILM</span><span>RAW</span></button>
+    </article>
+    <article class="char">
+      <div class="char-art"><img class="char-img" src="assets/cast-tauchi.webp" loading="lazy" alt="Tauchi, panel manga" data-en-alt="Tauchi, manga panel" style="object-position:50% 25%"><span class="mono char-tag">CAM 06</span></div>
+      <div class="char-body">
+        <p class="mono char-role" data-en="Minor role · nurse">Pemeran minor · perawat</p>
+        <h3>Tauchi</h3>
+        <div class="char-sides">
+          <p class="side side-film" data-en="One of the few named side characters, in uniform at the hospital where so much of the story is shot.">Salah satu dari sedikit tokoh sampingan yang punya nama, berseragam di rumah sakit tempat banyak adegan direkam.</p>
+          <p class="side side-raw" data-en="Proof of how small Fujimoto keeps this world: besides Yuta and Eri, almost nobody even gets a name.">Bukti betapa kecilnya dunia yang dibuat Fujimoto: selain Yuta dan Eri, hampir tak ada tokoh yang diberi nama.</p>
+        </div>
+        <ul class="tags"><li data-en="hospital">rumah sakit</li><li data-en="named extra">figuran bernama</li></ul>
+      </div>
+      <button class="raw-toggle" type="button" aria-pressed="false"><span>FILM</span><span>RAW</span></button>
+    </article>
+  </div>
+</section>
+
+<!-- LT · LATAR ==================================================== -->
+<section class="wiki" id="latar" data-arc="LT" data-label="LATAR" data-en-label="PLACES">
+  <header class="slate">
+    <p class="mono">REEL C · <span data-en="Location scouting">Survei lokasi</span></p>
+    <h2 data-en="Where it was shot">Lokasi syuting</h2>
+    <p class="slate-sum" data-en="Goodbye, Eri takes place in a handful of ordinary places. Each one returns, and means something different the second time.">Goodbye, Eri hanya berlangsung di beberapa tempat biasa. Setiap tempat muncul lagi, dan maknanya berbeda saat kedua kalinya.</p>
+  </header>
+  <div class="locs">
+    <article class="loc">
+      <div class="clap" aria-hidden="true"><i></i></div>
+      <dl class="mono loc-meta"><div><dt>SCENE</dt><dd>01</dd></div><div><dt>LOC</dt><dd data-en="Hospital">Rumah sakit</dd></div><div><dt>INT/EXT</dt><dd>INT · EXT</dd></div></dl>
+      <div class="loc-art"><svg viewBox="0 0 200 150"><use href="#s-hospital"/></svg></div>
+      <h3 data-en="The hospital &amp; its roof">Rumah sakit &amp; atapnya</h3>
+      <p data-en="Where Yuta films his mother, where his first movie ends in a blast, and where, on the roof, he meets Eri.">Tempat Yuta merekam ibunya, tempat film pertamanya berakhir dengan ledakan, dan di atapnya ia bertemu Eri.</p>
+    </article>
+    <article class="loc">
+      <div class="clap" aria-hidden="true"><i></i></div>
+      <dl class="mono loc-meta"><div><dt>SCENE</dt><dd>02</dd></div><div><dt>LOC</dt><dd data-en="School">Sekolah</dd></div><div><dt>INT/EXT</dt><dd>INT</dd></div></dl>
+      <div class="loc-art"><svg viewBox="0 0 200 150"><use href="#s-school"/></svg></div>
+      <h3 data-en="The school screenings">Pemutaran di sekolah</h3>
+      <p data-en="Both of Yuta's films premiere in front of his classmates. The first gets mocked. The second makes the same people cry.">Kedua film Yuta tayang perdana di depan teman-temannya. Yang pertama diejek. Yang kedua membuat orang yang sama menangis.</p>
+    </article>
+    <article class="loc">
+      <div class="clap" aria-hidden="true"><i></i></div>
+      <dl class="mono loc-meta"><div><dt>SCENE</dt><dd>03</dd></div><div><dt>LOC</dt><dd data-en="Screening room">Ruang pemutaran</dd></div><div><dt>INT/EXT</dt><dd>INT</dd></div></dl>
+      <div class="loc-art"><svg viewBox="0 0 200 150"><use href="#s-projector"/></svg></div>
+      <h3 data-en="The secret screening room">Ruang pemutaran rahasia</h3>
+      <p data-en="Eri's hideout: a projector, a sofa, shelves of films. They marathon movies here, and this is the building that shows up again years later.">Markas Eri: proyektor, sofa, rak penuh film. Mereka maraton film di sini, dan gedung inilah yang muncul lagi bertahun-tahun kemudian.</p>
+    </article>
+    <article class="loc">
+      <div class="clap" aria-hidden="true"><i></i></div>
+      <dl class="mono loc-meta"><div><dt>SCENE</dt><dd>04</dd></div><div><dt>LOC</dt><dd data-en="Beach">Pantai</dd></div><div><dt>INT/EXT</dt><dd>EXT</dd></div></dl>
+      <div class="loc-art"><svg viewBox="0 0 200 150"><use href="#s-beach"/></svg></div>
+      <h3 data-en="The beach">Pantai</h3>
+      <p data-en="The happiest footage in the film, until Eri collapses in the middle of it.">Rekaman paling bahagia di filmnya, sampai Eri pingsan di tengah-tengahnya.</p>
+    </article>
+    <article class="loc loc-phone">
+      <div class="clap" aria-hidden="true"><i></i></div>
+      <dl class="mono loc-meta"><div><dt>SCENE</dt><dd>∞</dd></div><div><dt>LOC</dt><dd data-en="Phone screen">Layar ponsel</dd></div><div><dt>INT/EXT</dt><dd>?</dd></div></dl>
+      <div class="loc-art"><svg viewBox="0 0 200 150"><use href="#s-phone"/></svg></div>
+      <h3 data-en="The real setting: the frame">Latar sebenarnya: bingkai</h3>
+      <p data-en="Almost everything we see is on Yuta's phone or in his edit. The only place the story never leaves is the camera.">Hampir semua yang kita lihat ada di ponsel Yuta atau hasil suntingannya. Satu-satunya tempat yang tak pernah ditinggalkan cerita ini adalah kamera.</p>
+    </article>
+  </div>
+</section>
+
+<!-- KM · BAHASA KAMERA ============================================ -->
+<section class="wiki" id="kamera" data-arc="KM" data-label="BAHASA KAMERA" data-en-label="CAMERA LANGUAGE">
+  <header class="slate">
+    <p class="mono">REEL D · <span data-en="Camera language">Bahasa kamera</span></p>
+    <h2 data-en="A manga you watch">Manga yang ditonton</h2>
+    <p class="slate-sum" data-en="Fujimoto storyboards the whole book like a film. Try the camera modes below on a sample page.">Fujimoto menyusun seluruh bukunya seperti storyboard film. Coba mode kamera di bawah pada contoh halaman.</p>
+  </header>
+  <div class="cam-lab">
+    <div class="cam-page" id="camPage" data-mode="stable">
+      <div class="cam-panel"><svg viewBox="0 0 200 150"><use href="#s-girl"/></svg></div>
+      <div class="cam-panel"><svg viewBox="0 0 200 150"><use href="#s-boy"/></svg></div>
+      <div class="cam-panel"><svg viewBox="0 0 200 150"><use href="#s-projector"/></svg></div>
+      <div class="cam-panel"><svg viewBox="0 0 200 150"><use href="#s-ruin"/></svg></div>
+    </div>
+    <div class="cam-ctrl">
+      <div class="cam-modes" role="radiogroup" aria-label="Mode kamera">
+        <button type="button" role="radio" aria-checked="true" data-mode="stable" data-en="Fixed grid">Grid tetap</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="shake" data-en="Shaky cam">Kamera goyang</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="blur" data-en="Out of focus">Lepas fokus</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="glitch" data-en="Cut footage">Rekaman terbuang</button>
+      </div>
+      <p class="cam-note narr" id="camNote"></p>
+    </div>
+  </div>
+</section>
+
+<!-- GL · GALERI =================================================== -->
+<section class="wiki" id="galeri" data-arc="GL" data-label="GALERI" data-en-label="GALLERY">
+  <header class="slate">
+    <p class="mono">REEL E · <span data-en="Gallery">Galeri</span></p>
+    <h2 data-en="Official stills">Still resmi</h2>
+    <p class="slate-sum" data-en="Official covers and promo art. Click a frame to enlarge it.">Sampul dan ilustrasi promo resmi. Klik bingkai untuk memperbesar.</p>
+  </header>
+  <div class="gallery">
+    <button class="still still-wide" type="button" data-cap="Promo VIZ / Weekly Shonen Jump 2022 · Eri &amp; Yuta di ruang pemutaran · © Tatsuki Fujimoto / Shueisha" data-en-cap="VIZ / Weekly Shonen Jump 2022 promo · Eri &amp; Yuta in the screening room · © Tatsuki Fujimoto / Shueisha">
+      <img src="assets/promo.webp" width="1200" height="480" loading="lazy" alt="Ilustrasi promo hitam putih: Eri dan Yuta duduk di sofa, proyektor di belakang mereka" data-en-alt="Black-and-white promo art: Eri and Yuta on a sofa with a projector behind them">
+      <span class="mono still-tc">● 00:01:12:04</span>
+    </button>
+    <button class="still" type="button" data-cap="Sampul volume Jepang · Jump Comics+ 2022 · © Tatsuki Fujimoto / Shueisha" data-en-cap="Japanese volume cover · Jump Comics+ 2022 · © Tatsuki Fujimoto / Shueisha">
+      <img src="assets/cover.webp" width="600" height="942" loading="lazy" alt="Sampul volume Jepang" data-en-alt="Japanese volume cover">
+      <span class="mono still-tc">● 00:00:00:01</span>
+    </button>
+    <button class="still" type="button" data-cap="Halaman judul (扉ページ) · Shōnen Jump+ 2022 · via Comic Natalie · © Tatsuki Fujimoto / Shueisha" data-en-cap="Title page · Shōnen Jump+ 2022 · via Comic Natalie · © Tatsuki Fujimoto / Shueisha">
+      <img src="assets/title-page.webp" width="820" height="1200" loading="lazy" alt="Halaman judul resmi" data-en-alt="Official title page">
+      <span class="mono still-tc">● 00:00:00:00</span>
+    </button>
+    <button class="still" type="button" data-cap="Sampul edisi Inggris · VIZ Media 2023 · © Tatsuki Fujimoto / Shueisha" data-en-cap="English edition cover · VIZ Media 2023 · © Tatsuki Fujimoto / Shueisha">
+      <img src="assets/cover-en.webp" width="320" height="460" loading="lazy" alt="Sampul edisi Inggris VIZ Media" data-en-alt="VIZ Media English edition cover">
+      <span class="mono still-tc">● 00:00:00:02</span>
+    </button>
+  </div>
+</section>
+
+<!-- SPOILER GATE ================================================== -->
+<section class="gate" id="spoiler">
+  <div class="gate-inner">
+    <span class="stamp" data-en="Full spoilers from here">Spoiler penuh mulai sini</span>
+    <h2 data-en="Play the footage">Putar rekamannya</h2>
+    <p class="narr" data-en="Below, the whole story in nine cuts, from the birthday to the final explosion. Haven't read it yet? Read it first (it's free), then come back.">Di bawah ini seluruh cerita dalam sembilan potongan, dari ulang tahun sampai ledakan terakhir. Belum baca? Baca dulu (gratis), lalu kembali ke sini.</p>
+    <div class="boot-cta">
+      <a class="btn-rec" href="#a1"><b></b><span data-en="Play">Putar</span></a>
+      <a class="btn-ghost" href="#baca" data-en="Where to read first →">Baca dulu di mana →</a>
+    </div>
+  </div>
+</section>
+
+<!-- 01 · ULANG TAHUN ============================================= -->
+<section class="arc" id="a1" data-arc="01" data-label="ULANG TAHUN" data-en-label="BIRTHDAY">
+  <header class="card">
+    <p class="mono">CUT 01 · 00:00:00</p>
+    <h2><span lang="ja">誕生日</span><b data-en="Birthday">Ulang tahun</b></h2>
+    <p class="card-sum" data-en="Yuta Ito gets a smartphone for his birthday. His mother, who is terminally ill, gives him a job to go with it.">Yuta Itō mendapat smartphone di hari ulang tahunnya. Ibunya, yang sakit parah, memberinya tugas bersama hadiah itu.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w6 h2 speed"><svg class="art" viewBox="0 0 200 150"><use href="#s-cake"/></svg><span class="sfx" lang="ja" style="--r:-8deg;right:6%;top:8%">パチ</span><figcaption class="box" data-en="A birthday. A new phone. The first thing he points it at is his mother.">Hari ulang tahun. Ponsel baru. Hal pertama yang ia arahkan kameranya adalah ibunya.</figcaption></figure>
+    <figure class="panel w3 h2 white"><img class="pimg contain" src="assets/title-page.webp" loading="lazy" alt="Halaman judul resmi: tangan memegang ponsel bertuliskan さよなら絵梨" data-en-alt="Official title page: hands holding a phone reading さよなら絵梨" style="object-position:50% 22%"></figure>
+    <figure class="panel w3 h2"><img class="pimg" src="assets/mom-full.webp" loading="lazy" alt="Ibu Yuta" data-en-alt="Yuta's mother" style="object-position:60% 30%"><p class="bubble" style="left:6%;bottom:8%" data-en="Film me. Make a movie out of it.">Rekam Ibu. Jadikan film.</p></figure>
+    <figure class="panel w6 h1 black"><p class="big" data-en="So he records.">Jadi ia merekam.</p></figure>
+  </div>
+</section>
+
+<!-- 02 · DEAD EXPLOSION MOTHER ==================================== -->
+<section class="arc" id="a2" data-arc="02" data-label="DEAD EXPLOSION MOTHER" data-en-label="DEAD EXPLOSION MOTHER">
+  <header class="card">
+    <p class="mono">CUT 02 · 00:03:12</p>
+    <h2><span lang="ja">爆発</span><b>Dead Explosion Mother</b></h2>
+    <p class="card-sum" data-en="Months of footage: hospital rooms, smaller meals, a body getting lighter. The movie he cuts from it has an ending nobody expects.">Berbulan-bulan rekaman: kamar rumah sakit, porsi makan yang mengecil, tubuh yang makin ringan. Film yang ia sunting dari situ punya akhir yang tak terduga.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w2 h1 tone rec-frame"><span class="mono stamp-tc">DAY 12</span><img class="pimg" src="assets/mom-full.webp" loading="lazy" alt="Ibu Yuta, hari ke-12" data-en-alt="Yuta's mother, day 12" style="object-position:50% 35%"></figure>
+    <figure class="panel w2 h1 tone rec-frame"><span class="mono stamp-tc">DAY 87</span><img class="pimg fade1" src="assets/mom-full.webp" loading="lazy" alt="Ibu Yuta, hari ke-87" data-en-alt="Yuta's mother, day 87" style="object-position:50% 45%"></figure>
+    <figure class="panel w2 h1 tone rec-frame dim"><span class="mono stamp-tc">DAY 160</span><img class="pimg fade2" src="assets/mom-full.webp" loading="lazy" alt="Ibu Yuta, hari ke-160" data-en-alt="Yuta's mother, day 160" style="object-position:50% 55%"></figure>
+    <figure class="panel w6 h1 white"><p class="narr" data-en="At the very end, he cannot film it. He runs out of the hospital, and in his movie, it explodes behind him.">Di saat terakhir, ia tak sanggup merekamnya. Ia lari keluar dari rumah sakit, dan di filmnya, gedung itu meledak di belakangnya.</p></figure>
+    <figure class="panel w6 h3 boomable" id="boomHospital">
+      <svg class="art art-bottom" viewBox="0 0 200 150"><use href="#s-hospital"/></svg>
+      <div class="burst" aria-hidden="true"><i></i></div>
+      <span class="sfx sfx-xl" lang="ja">ドカーン</span>
+      <span class="mono hint-in" data-en="keep scrolling to roll the ending">terus gulir untuk memutar akhirnya</span>
+    </figure>
+  </div>
+</section>
+
+<!-- 03 · PEMUTARAN ================================================ -->
+<section class="arc" id="a3" data-arc="03" data-label="PEMUTARAN" data-en-label="SCREENING">
+  <header class="card">
+    <p class="mono">CUT 03 · 00:06:40</p>
+    <h2><span lang="ja">上映</span><b data-en="Screening">Pemutaran</b></h2>
+    <p class="card-sum" data-en="Surprise: the pages you just read were Yuta's movie, being shown at school. The explosion gets no applause.">Kejutan: halaman yang baru kamu baca adalah film Yuta, sedang diputar di sekolah. Ledakannya tidak mendapat tepuk tangan.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w4 h2 dark"><div class="seats" aria-hidden="true"></div><div class="screen-glow"></div><figcaption class="box" data-en="A gym, a projector, the whole school watching.">Aula, proyektor, satu sekolah menonton.</figcaption></figure>
+    <figure class="panel w2 h2 tone whispers"><img class="pimg faint" src="assets/cast-classmate.webp" loading="lazy" alt="Teman sekelas Yuta" data-en-alt="Yuta's classmate" style="object-position:50% 20%">
+      <p class="bubble jag" style="left:8%;top:6%" data-en="Disrespectful.">Tidak sopan.</p>
+      <p class="bubble jag" style="right:6%;top:36%" data-en="To his own mother?">Ke ibunya sendiri?</p>
+      <p class="bubble jag" style="left:10%;bottom:8%" data-en="What a joke.">Lelucon apa ini.</p>
+    </figure>
+    <figure class="panel w3 h1 white"><p class="narr" data-en="Teachers scold him. Classmates bully him.">Guru memarahinya. Teman sekelas merundungnya.</p></figure>
+    <figure class="panel w3 h1 black"><p class="narr" data-en="So he climbs to the roof of his mother's hospital.">Maka ia naik ke atap rumah sakit tempat ibunya dirawat.</p></figure>
+  </div>
+</section>
+
+<!-- 04 · ATAP ===================================================== -->
+<section class="arc" id="a4" data-arc="04" data-label="ATAP" data-en-label="ROOFTOP">
+  <header class="card">
+    <p class="mono">CUT 04 · 00:08:05</p>
+    <h2><span lang="ja">屋上</span><b data-en="Rooftop">Atap</b></h2>
+    <p class="card-sum" data-en="At the edge, someone stops him. A girl who loved the film everyone hated.">Di tepi atap, seseorang menghentikannya. Gadis yang menyukai film yang dibenci semua orang.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w6 h2 speed-h"><svg class="art" viewBox="0 0 200 150"><use href="#s-rail"/></svg><span class="sfx" lang="ja" style="--r:4deg;left:6%;top:10%">ヒュウ</span></figure>
+    <figure class="panel w3 h3 tone eri-in"><img class="pimg" src="assets/eri-roof.webp" loading="lazy" alt="Eri di tangga atap" data-en-alt="Eri on the rooftop stairs" style="object-position:50% 30%"><p class="bubble" style="right:6%;top:6%" data-en="The explosion was the best part.">Ledakannya bagian terbaik.</p></figure>
+    <figure class="panel w3 h2"><img class="pimg" src="assets/cast-yuta.webp" loading="lazy" alt="Yuta" data-en-alt="Yuta" style="object-position:50% 40%"><p class="bubble" style="left:6%;top:6%" data-en="...You liked it?">...Kamu suka?</p></figure>
+    <figure class="panel w3 h1 black"><p class="big" data-en="Her name is Eri.">Namanya Eri.</p></figure>
+    <figure class="panel w6 h1 white"><p class="narr" data-en="She has an offer: make another film together, one that will make everyone who mocked him cry.">Ia punya tawaran: buat film lagi bersama, yang akan membuat semua orang yang mengejeknya menangis.</p></figure>
+  </div>
+</section>
+
+<!-- 05 · RUANG PEMUTARAN ========================================== -->
+<section class="arc" id="a5" data-arc="05" data-label="RUANG PEMUTARAN" data-en-label="SCREENING ROOM">
+  <header class="card">
+    <p class="mono">CUT 05 · 00:10:30</p>
+    <h2><span lang="ja">映写室</span><b data-en="The screening room">Ruang pemutaran</b></h2>
+    <p class="card-sum" data-en="A hidden room, a projector, a pile of films. Homework before the shoot: watch everything.">Ruang tersembunyi, proyektor, tumpukan film. Tugas sebelum syuting: tonton semuanya.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w2 h2 white"><img class="pimg" src="assets/promo.webp" loading="lazy" alt="Eri dan Yuta di sofa ruang pemutaran" data-en-alt="Eri and Yuta on the screening room sofa" style="object-position:30% 50%"></figure>
+    <figure class="panel w4 h2 dark projector" id="projector">
+      <svg class="art beam" viewBox="0 0 200 150"><use href="#s-projector"/></svg>
+      <div class="reel-screen" aria-live="polite"><span class="mono" id="reelNo">FILM #001</span><b id="reelGenre">Laga</b></div>
+      <button class="btn-mini" id="reelNext" type="button" data-en="▶ Next film">▶ Film berikutnya</button>
+    </figure>
+    <figure class="panel w6 h1 white"><p class="narr" data-en="Between shoots they marathon movies, argue about them, and watch again. Their film becomes a half-documentary about the two of them, with one big lie: Eri is a vampire.">Di sela syuting mereka maraton film, berdebat, lalu menonton lagi. Film mereka jadi semi-dokumenter tentang mereka berdua, dengan satu kebohongan besar: Eri adalah vampir.</p></figure>
+  </div>
+</section>
+
+<!-- 06 · SYUTING ================================================== -->
+<section class="arc" id="a6" data-arc="06" data-label="SYUTING" data-en-label="THE SHOOT">
+  <header class="card">
+    <p class="mono">CUT 06 · 00:13:48</p>
+    <h2><span lang="ja">撮影</span><b data-en="The shoot">Syuting</b></h2>
+    <p class="card-sum" data-en="They grow closer. Then, playing at the beach, Eri collapses. She is terminally ill, just like Yuta's mother.">Mereka makin dekat. Lalu, saat bermain di pantai, Eri pingsan. Ia sakit parah, sama seperti ibu Yuta.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w6 h3 tone viewfinder" id="viewfinder">
+      <div class="vf-reel" id="vfReel" aria-hidden="true"></div><span class="mono vf-count" id="vfCount">ERI · 1/5</span>
+      <div class="vf-ui" aria-hidden="true"><span class="vf-rec"><b></b>REC</span><span class="vf-box"></span></div>
+      <button class="btn-mini vf-shoot" id="vfShoot" type="button" data-en="● Take a shot">● Ambil gambar</button>
+    </figure>
+    <figure class="panel w6 h1 dark"><div class="strip" id="strip"><span class="mono strip-empty" data-en="click when the shot is in focus · sharp = OK, blurry = NG">klik saat gambar tajam · tajam = OK, buram = NG</span></div></figure>
+    <figure class="panel w3 h2 white"><svg class="art" viewBox="0 0 200 150"><use href="#s-beach"/></svg><span class="sfx" lang="ja" style="--r:-4deg;right:6%;top:8%">ザザ</span></figure>
+    <figure class="panel w3 h1"><img class="pimg" src="assets/cast-dad.webp" loading="lazy" alt="Ayah Yuta" data-en-alt="Yuta's father" style="object-position:50% 20%"><figcaption class="box" style="left:auto;right:8px;max-width:58%" data-en="Yuta wants to stop. His father tells him to finish it.">Yuta ingin berhenti. Ayahnya menyuruhnya menyelesaikannya.</figcaption></figure>
+    <figure class="panel w3 h1 white"><p class="narr" data-en="And tells him the truth: his mother was cruel to them both.">Dan menceritakan kebenaran: ibunya kejam kepada mereka berdua.</p></figure>
+  </div>
+</section>
+
+<!-- 07 · LAYAR ==================================================== -->
+<section class="arc arc-pull" id="a7" data-arc="07" data-label="LAYAR" data-en-label="THE SCREEN">
+  <header class="card">
+    <p class="mono">CUT 07 · 00:17:20</p>
+    <h2><span lang="ja">映画</span><b data-en="The screen">Layar</b></h2>
+    <p class="card-sum" data-en="They finish the movie just before Eri dies. Yuta screens it at school.">Mereka menyelesaikan filmnya tepat sebelum Eri meninggal. Yuta memutarnya di sekolah.</p>
+  </header>
+  <div class="pull" id="pull">
+    <div class="pull-sticky">
+      <div class="theater" aria-hidden="true"><div class="seats seats-big"></div></div>
+      <div class="pull-frame" id="pullFrame">
+        <div class="page page-tight">
+          <figure class="panel w6 h2 white"><img class="pimg color" src="assets/cast-eri-film.webp" loading="lazy" alt="Eri tersenyum di layar ponsel" data-en-alt="Eri smiling on the phone screen" style="object-position:50% 40%"><figcaption class="box" data-en="The last shot of Eri, smiling at the camera, glasses off.">Gambar terakhir Eri, tersenyum ke kamera, tanpa kacamata.</figcaption></figure>
+          <figure class="panel w6 h1 black"><p class="big" data-en="THE END">TAMAT</p></figure>
+        </div>
+      </div>
+      <p class="pull-cap narr" id="pullCap" data-en="This time the audience cries. The same people who mocked him.">Kali ini penonton menangis. Orang-orang yang sama yang dulu mengejeknya.</p>
+    </div>
+  </div>
+  <div class="page">
+    <figure class="panel w3 h2 tone"><img class="pimg" src="assets/cast-eri.webp" loading="lazy" alt="Eri yang asli" data-en-alt="The real Eri" style="object-position:30% 30%"><p class="bubble" style="right:6%;bottom:6%" data-en="That's not the Eri I knew.">Itu bukan Eri yang kukenal.</p></figure>
+    <figure class="panel w3 h2 white"><p class="narr" data-en="Eri's friend calls it out: the real Eri was harder to like. They both admit it, and both decide they prefer the film's version.">Teman Eri mengatakannya: Eri yang asli tak semudah itu disukai. Mereka berdua mengakuinya, dan sama-sama memilih versi di film.</p></figure>
+    <figure class="panel w6 h1 black"><p class="narr" data-en="A film chooses what gets remembered. For years, Yuta keeps re-cutting it.">Film memilih apa yang diingat. Bertahun-tahun, Yuta terus menyuntingnya ulang.</p></figure>
+  </div>
+</section>
+
+<!-- 08 · BERTAHUN KEMUDIAN ======================================== -->
+<section class="arc" id="a8" data-arc="08" data-label="BERTAHUN KEMUDIAN" data-en-label="YEARS LATER">
+  <header class="card">
+    <p class="mono">CUT 08 · 00:21:02</p>
+    <h2><span lang="ja">数年後</span><b data-en="Years later">Bertahun-tahun kemudian</b></h2>
+    <p class="card-sum" data-en="Adult Yuta loses his wife, child and father in a car accident. He returns to the old screening room to end his life. Someone is there.">Yuta dewasa kehilangan istri, anak, dan ayahnya dalam kecelakaan mobil. Ia kembali ke ruang pemutaran lama untuk mengakhiri hidupnya. Seseorang ada di sana.</p>
+  </header>
+  <div class="page">
+    <figure class="panel w6 h1 black rain"><p class="narr" data-en="Rain. A long road. An empty house.">Hujan. Jalan panjang. Rumah yang kosong.</p></figure>
+    <figure class="panel w3 h2 white"><svg class="art" viewBox="0 0 200 150"><use href="#s-ruin"/></svg></figure>
+    <figure class="panel w3 h2 tone glitch"><img class="pimg art" src="assets/eri-roof.webp" loading="lazy" alt="Eri, tak menua" data-en-alt="Eri, not a day older" style="object-position:50% 25%"><span class="sfx" lang="ja" style="--r:-6deg;left:6%;bottom:6%">ザッ</span></figure>
+    <figure class="panel w6 h3 white notebook" id="notebook">
+      <div class="nb-pages" aria-live="polite">
+        <article class="nb-page is-on"><p class="mono">01</p><p class="narr" data-en="Eri. Alive. Still young. Not a day older.">Eri. Hidup. Masih muda. Tak menua sehari pun.</p></article>
+        <article class="nb-page"><p class="mono">02</p><p class="narr" data-en="She really is a vampire. Every so often her brain dies and her memory resets.">Ia benar-benar vampir. Sesekali otaknya mati dan ingatannya terhapus.</p></article>
+        <article class="nb-page"><p class="mono">03</p><p class="narr" data-en="Her past self left instructions, and the movie she made with Yuta, so every new Eri would remember him and know who to be.">Dirinya yang dulu meninggalkan catatan, juga film yang ia buat bersama Yuta, agar setiap Eri yang baru mengingatnya dan tahu harus menjadi siapa.</p></article>
+        <article class="nb-page"><p class="mono">04</p><p class="narr" data-en="She tells him the film was good, but it lacked a pinch of fantasy.">Ia bilang filmnya bagus, tapi kurang sedikit fantasi.</p></article>
+      </div>
+      <button class="btn-mini nb-next" id="nbNext" type="button" data-en="Turn page ▸">Balik halaman ▸</button>
+    </figure>
+  </div>
+</section>
+
+<!-- 09 · SEDIKIT FANTASI ========================================== -->
+<section class="finale" id="a9" data-arc="09" data-label="SEDIKIT FANTASI" data-en-label="A PINCH OF FANTASY">
+  <header class="card">
+    <p class="mono">CUT 09 · 00:23:40 · FINAL</p>
+    <h2><span lang="ja">少し幻想</span><b data-en="A pinch of fantasy">Sedikit fantasi</b></h2>
+    <p class="card-sum" data-en="His will to live back, Yuta says goodbye to Eri and walks away. Every film needs an ending. You choose this one.">Dengan keinginan hidup yang kembali, Yuta berpamitan pada Eri dan pergi. Setiap film butuh akhir. Kali ini kamu yang memilih.</p>
+  </header>
+  <div class="finale-stage" id="stage">
+    <svg class="finale-ruin" viewBox="0 0 200 150" aria-hidden="true"><use href="#s-ruin"/></svg>
+    <div class="burst burst-xl" aria-hidden="true"><i></i></div>
+    <div class="debris" id="debris" aria-hidden="true"></div>
+    <span class="sfx sfx-final" lang="ja" aria-hidden="true">ドカーン</span>
+    <div class="endings" id="endings">
+      <p class="mono" data-en="Choose an ending">Pilih ending</p>
+      <button class="end-opt" type="button" data-end="sad"><span data-en="Yuta walks away in silence">Yuta pergi dalam diam</span><em class="rej" data-en="Too realistic">Terlalu realistis</em></button>
+      <button class="end-opt" type="button" data-end="happy"><span data-en="Yuta stays with Eri">Yuta tinggal bersama Eri</span><em class="rej" data-en="Too sweet">Terlalu manis</em></button>
+      <button class="end-opt end-boom" type="button" data-end="boom"><span data-en="Add a pinch of fantasy">Tambahkan sedikit fantasi</span></button>
+    </div>
+    <div class="goodbye" id="goodbye">
+      <p class="title-jp" lang="ja"><i>さ</i><i>よ</i><i>な</i><i>ら</i><i>絵</i><i>梨</i></p>
+      <p class="title-en">Goodbye, Eri</p>
+      <p class="goodbye-note" data-en="Behind him, the building explodes, just like the ending of his very first film. How much of it was real? Fujimoto never says.">Di belakangnya, gedung itu meledak, persis seperti akhir film pertamanya. Seberapa banyak yang nyata? Fujimoto tidak pernah menjawab.</p>
+      <a class="btn-mini" href="#tema" data-en="Keep reading ↓">Lanjut membaca ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- TM · TEMA ===================================================== -->
+<section class="wiki" id="tema" data-arc="TM" data-label="TEMA" data-en-label="THEMES">
+  <header class="slate">
+    <p class="mono">REEL F · <span data-en="Director's commentary">Komentar sutradara</span></p>
+    <h2 data-en="What it's really about">Sebenarnya tentang apa</h2>
+  </header>
+  <div class="themes">
+    <article class="theme"><span class="mono">01</span><h3 data-en="Editing memory">Menyunting kenangan</h3><p data-en="Yuta cuts out his mother's cruelty and Eri's sharp edges. The story never says he was wrong to. It asks whether remembering someone kindly is a lie or a gift.">Yuta memotong kekejaman ibunya dan sisi tajam Eri. Ceritanya tak pernah bilang ia salah. Ia bertanya: mengingat seseorang dengan baik itu kebohongan, atau hadiah?</p></article>
+    <article class="theme"><span class="mono">02</span><h3 data-en="Fiction vs reality">Fiksi vs kenyataan</h3><p data-en="The first pages are a film. The vampire was a joke, until it wasn't. The final explosion makes you doubt every scene before it. The book is built like a hall of mirrors.">Halaman awal ternyata film. Vampir itu cuma lelucon, sampai ternyata bukan. Ledakan terakhir membuatmu meragukan semua adegan sebelumnya. Bukunya disusun seperti lorong cermin.</p></article>
+    <article class="theme"><span class="mono">03</span><h3 data-en="The explosion">Ledakan</h3><p data-en="First it is a cheap, offensive joke. By the end it is the most honest thing Yuta can make: grief that refuses to be tidy. The same image, two completely different meanings.">Awalnya lelucon murahan yang menyinggung. Di akhir, itulah hal paling jujur yang bisa Yuta buat: duka yang menolak dirapikan. Gambar yang sama, dua makna yang sangat berbeda.</p></article>
+    <article class="theme"><span class="mono">04</span><h3 data-en="Why we make things">Kenapa kita berkarya</h3><p data-en="Like Look Back before it, Goodbye, Eri is about creating as a way to survive loss. Many critics read it as a story about the act of creation itself.">Seperti Look Back sebelumnya, Goodbye, Eri bercerita tentang berkarya sebagai cara bertahan dari kehilangan. Banyak pengulas membacanya sebagai cerita tentang tindakan berkarya itu sendiri.</p></article>
+  </div>
+</section>
+
+<!-- FF · FUN FACT ================================================= -->
+<section class="wiki" id="fakta" data-arc="FF" data-label="FUN FACT" data-en-label="FUN FACTS">
+  <header class="slate">
+    <p class="mono">REEL G · <span data-en="Behind the scenes">Di balik layar</span></p>
+    <h2 data-en="Fun facts">Fun fact</h2>
+    <p class="slate-sum" data-en="Click a clapperboard to reveal the take.">Klik papan klapper untuk membuka take-nya.</p>
+  </header>
+  <div class="facts" id="facts">
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 01</span><b data-en="Longest one-shot">One-shot terpanjang</b><span class="fact-a" data-en="At 200 pages it's Fujimoto's longest one-shot, beating Look Back's 143 pages.">Dengan 200 halaman, ini one-shot terpanjang Fujimoto, mengalahkan Look Back yang 143 halaman.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 02</span><b data-en="The phone grid">Grid ponsel</b><span class="fact-a" data-en="Most pages use the same stack of equal, wide panels, like a phone held sideways. The layout only breaks for big splash pages.">Sebagian besar halaman memakai susunan panel lebar yang sama besar, seperti ponsel yang dipegang mendatar. Layout-nya hanya pecah di halaman splash besar.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 03</span><b data-en="You were in the audience">Kamu ikut jadi penonton</b><span class="fact-a" data-en="The opening pages, around twenty of them, turn out to be Yuta's finished film, Dead Explosion Mother, being screened at school.">Halaman-halaman pembuka, sekitar dua puluh, ternyata film Yuta yang sudah jadi, Dead Explosion Mother, sedang diputar di sekolah.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 04</span><b data-en="Glasses off">Kacamata dilepas</b><span class="fact-a" data-en="Eri wears glasses in real life but takes them off for every shot. Her friend notices the difference.">Eri berkacamata di kehidupan nyata tapi melepasnya setiap kali direkam. Temannya menyadari bedanya.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 05</span><b data-en="The deleted scenes theory">Teori adegan terbuang</b><span class="fact-a" data-en="Some panels look warped or pixelated. Readers suggest those are shots Yuta cut, so reading only them shows the film he never meant to make.">Beberapa panel tampak rusak atau pecah piksel. Pembaca menduga itu potongan yang dibuang Yuta, jadi membaca panel-panel itu saja memperlihatkan film yang tak pernah ingin ia buat.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 06</span><b data-en="Announced by his editor">Diumumkan editornya</b><span class="fact-a" data-en="Shueisha editor Shihei Lin announced the 200-page one-shot on 4 February 2022, two months before release.">Editor Shueisha, Shihei Lin, mengumumkan one-shot 200 halaman ini pada 4 Februari 2022, dua bulan sebelum rilis.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 07</span><b data-en="Mockumentary roots">Akar mockumentary</b><span class="fact-a" data-en="Commentators link its style to found-footage and mockumentary film, the genre of Japanese director Kōji Shiraishi.">Banyak pengulas mengaitkan gayanya dengan film found-footage dan mockumentary, genre sutradara Jepang Kōji Shiraishi.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 08</span><b data-en="Fujimoto in the frame?">Fujimoto di dalam bingkai?</b><span class="fact-a" data-en="Many fans read Yuta's father as a stand-in for Fujimoto, the same way Fujino and Kyomoto were read in Look Back.">Banyak penggemar membaca ayah Yuta sebagai cerminan Fujimoto, seperti Fujino dan Kyomoto di Look Back.</span></button>
+    <button class="fact" type="button"><span class="clap" aria-hidden="true"><i></i></span><span class="mono">TAKE 09</span><b data-en="Same day worldwide">Rilis serentak</b><span class="fact-a" data-en="The English version went up on Manga Plus and VIZ the same day as Japan. It drew 2.2 million views on Jump+ within one day.">Versi Inggris tayang di Manga Plus dan VIZ di hari yang sama dengan Jepang. Di Jump+ saja, 2,2 juta view dalam sehari.</span></button>
+  </div>
+</section>
+
+<!-- PH · PENGHARGAAN ============================================== -->
+<section class="wiki" id="jejak" data-arc="PH" data-label="PENGHARGAAN" data-en-label="RECOGNITION">
+  <header class="slate">
+    <p class="mono">REEL H · <span data-en="Festival run">Jalur festival</span></p>
+    <h2 data-en="Recognition">Penghargaan &amp; peringkat</h2>
+  </header>
+  <ol class="run">
+    <li><time>2022.02.04</time><p data-en="Editor Shihei Lin announces a 200-page Fujimoto one-shot">Editor Shihei Lin mengumumkan one-shot Fujimoto 200 halaman</p></li>
+    <li><time>2022.04.11</time><p data-en="Released on Shōnen Jump+ · English on Manga Plus &amp; VIZ the same day">Rilis di Shōnen Jump+ · versi Inggris di Manga Plus &amp; VIZ di hari yang sama</p></li>
+    <li><time>2022.07.04</time><p data-en="Single volume published by Shueisha">Volume tunggal diterbitkan Shueisha</p></li>
+    <li class="win"><time>2022</time><p data-en="#2 · Kono Manga ga Sugoi! 2023, male readers (Takarajimasha)">#2 · Kono Manga ga Sugoi! 2023, kategori pria (Takarajimasha)</p></li>
+    <li class="win"><time>2022</time><p data-en="#6 · The Best Manga 2023: Kono Manga wo Yome! (Freestyle)">#6 · The Best Manga 2023: Kono Manga wo Yome! (Freestyle)</p></li>
+    <li class="win"><time>2023</time><p data-en="#7 · 16th Manga Taishō">#7 · Manga Taishō ke-16</p></li>
+    <li><time>2023.06.27</time><p data-en="VIZ Media print edition in English">Edisi cetak bahasa Inggris oleh VIZ Media</p></li>
+    <li class="win"><time>2023</time><p data-en="Nominated · Harvey Award, Best Manga">Nominasi · Harvey Award, Best Manga</p></li>
+    <li class="win"><time>2024</time><p data-en="Nominated · Eisner Award, Best U.S. Edition of International Material (Asia)">Nominasi · Eisner Award, Best U.S. Edition of International Material (Asia)</p></li>
+  </ol>
+</section>
+
+<!-- BC · BACA ===================================================== -->
+<section class="wiki" id="baca" data-arc="BC" data-label="BACA" data-en-label="READ">
+  <header class="slate">
+    <p class="mono">REEL I · <span data-en="Where to watch">Tempat menonton</span></p>
+    <h2 data-en="Read it officially">Baca versi resmi</h2>
+    <p class="slate-sum" data-en="Read it through official sources. That is how Fujimoto gets to keep making explosions.">Baca lewat sumber resmi. Dengan begitu Fujimoto bisa terus membuat ledakan.</p>
+  </header>
+  <div class="reads">
+    <a class="read" href="https://shonenjumpplus.com/episode/3269754496858728104" target="_blank" rel="noopener"><span class="mono">JP</span><b>Shōnen Jump+</b><span data-en="Original, Japanese">Versi asli, bahasa Jepang</span></a>
+    <a class="read" href="https://mangaplus.shueisha.co.jp/" target="_blank" rel="noopener"><span class="mono">EN</span><b>MANGA Plus</b><span data-en="Official, multi-language app by Shueisha">Resmi, multi-bahasa dari Shueisha</span></a>
+    <a class="read" href="https://www.viz.com/goodbye-eri" target="_blank" rel="noopener"><span class="mono">EN</span><b>VIZ Media</b><span data-en="English digital &amp; print volume">Volume digital &amp; cetak bahasa Inggris</span></a>
+  </div>
+  <div class="more">
+    <p class="mono" data-en="More Fujimoto, more blogs">Fujimoto lainnya, blog lainnya</p>
+    <div class="more-links">
+      <a href="https://dans-vsa.github.io/fujimoto-archive/">Fujimoto Archive</a>
+      <a href="https://dans-vsa.github.io/chainsaw-man-fanblog/">Chainsaw Man</a>
+      <a href="https://dans-vsa.github.io/fire-punch-fanblog/">Fire Punch</a>
+      <a href="https://look-back-fujimoto.vercel.app/">Look Back</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="credits">
+  <div class="roll">
+    <p class="mono">END CREDITS</p>
+    <dl>
+      <dt data-en="Story &amp; art">Cerita &amp; gambar</dt><dd>Tatsuki Fujimoto</dd>
+      <dt data-en="Publisher">Penerbit</dt><dd>Shueisha · Shōnen Jump+ · VIZ Media (EN)</dd>
+      <dt data-en="This page">Halaman ini</dt><dd data-en="Unofficial fan blog. Covers, promo art and small panel crops © Tatsuki Fujimoto / Shueisha, used for commentary. No full manga pages are reproduced.">Blog penggemar tidak resmi. Sampul, ilustrasi promo, dan potongan kecil panel © Tatsuki Fujimoto / Shueisha, dipakai untuk ulasan. Tidak ada halaman manga utuh yang direproduksi.</dd>
+      <dt data-en="Sources">Sumber</dt><dd>Wikipedia · VIZ Media · Shōnen Jump+ · Comic Natalie · Anime-Planet · Hate Sink Wiki</dd>
+    </dl>
+    <button class="btn-mini btn-rewind" id="replay" type="button" data-en="↺ Rewind the tape">↺ Putar ulang</button>
+    <p class="mono small">さよなら絵梨 © Tatsuki Fujimoto / Shueisha</p>
+  </div>
+</footer>
+
+<script src="main.js?v=5" defer></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# local research, raw downloads, tooling state
+.research/
+.claude/
+.omc/
