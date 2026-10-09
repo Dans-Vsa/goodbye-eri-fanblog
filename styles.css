@@ -221,13 +221,14 @@ body.booted .boot .title-jp i{animation:focusIn .9s cubic-bezier(.2,.7,.2,1) for
 .finale-ruin{position:absolute;left:50%;bottom:0;width:min(560px,80%);transform:translateX(-50%)}
 .burst-xl{top:70%}
 .sfx-final{left:50%;top:38%;font-size:clamp(64px,14vw,190px);color:var(--boom);-webkit-text-stroke:4px var(--ink);transform:translate(-50%,-50%) scale(0) rotate(-6deg);opacity:0}
-.endings{position:absolute;z-index:5;left:50%;top:10%;transform:translateX(-50%);display:grid;gap:10px;width:min(440px,88%);text-align:center}
+.endings{position:absolute;z-index:5;left:50%;top:10%;transform:translateX(-50%);display:grid;gap:16px;width:min(440px,88%);text-align:center}
 .endings .mono{color:var(--ink)}
 .end-opt{position:relative;padding:14px 16px;background:var(--paper);border:2px solid var(--ink);font:500 15px/1.3 var(--f-narr);transition:background .15s,color .15s,transform .15s}
 .end-opt:hover{background:var(--ink);color:var(--paper)}
-.end-opt .rej{position:absolute;right:-8px;top:50%;font:700 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;font-style:normal;color:var(--rec);border:2px solid var(--rec);background:var(--paper);padding:6px 8px;transform:translateY(-50%) rotate(-8deg) scale(1.6);opacity:0;pointer-events:none;transition:opacity .2s,transform .25s cubic-bezier(.2,1.6,.4,1)}
-.end-opt.cut{text-decoration:line-through;opacity:.55;transform:translateX(-6px)}
-.end-opt.cut .rej{opacity:1;transform:translateY(-50%) rotate(-8deg) scale(1)}
+.end-opt .rej{position:absolute;right:-6px;top:-13px;z-index:2;font:700 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;font-style:normal;color:var(--rec);border:2px solid var(--rec);background:var(--paper);padding:6px 8px;transform:rotate(-7deg) scale(1.6);opacity:0;pointer-events:none;transition:opacity .2s,transform .25s cubic-bezier(.2,1.6,.4,1)}
+.end-opt.cut{text-decoration:line-through;color:#8a8a84;border-color:#8a8a84}
+.end-opt.cut .rej{text-decoration:none}
+.end-opt.cut .rej{opacity:1;transform:rotate(-7deg) scale(1)}
 .end-boom{border-color:var(--boom);box-shadow:4px 4px 0 var(--ink)}
 .end-boom:hover{background:var(--boom);color:var(--ink)}
 .debris{position:absolute;left:50%;top:70%;z-index:3;pointer-events:none}
