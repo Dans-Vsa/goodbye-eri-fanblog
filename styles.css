@@ -465,7 +465,13 @@ body.booted .boot-cover{opacity:1;transform:rotate(2deg)}
   .bar{top:calc(var(--frame) + 26px)}
   .card{grid-template-columns:1fr}
   .card-sum{justify-self:start}
-  .page{grid-auto-rows:84px}
+  .page{grid-auto-rows:minmax(84px,auto)}
+  .page .panel:has(> .narr),.page .panel:has(> .big),.page .panel.w3:has(> .box){grid-column:span 6}
+  .panel>.narr{position:relative;inset:auto;padding:16px;font-size:16px}
+  .panel>.big{position:relative;inset:auto;min-height:84px;padding:14px}
+  .box{font-size:12.5px;max-width:86%}
+  .finale-stage{height:min(86svh,640px)}
+  .endings{top:6%}
   .w2{grid-column:span 3}.w4{grid-column:span 6}
   .whispers{grid-column:span 6}
   .tl-clip span{display:none}
